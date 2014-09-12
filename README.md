@@ -2,7 +2,7 @@
 
 Arya is a .NET crypter/dropper generator.
 
-It will take a .NET compiled executable or a set of C# source code to compile to a .NET binary using Mono, and then will build a launcher or a dropper for the original exe. 
+It will take a .NET compiled executable or a C# source code file (to compile to a .NET binary using Mono) and then will build a launcher or a dropper for the original exe. 
 
 For the launcher, the binary is base64'd and obfuscated with letter substitution. The launcher wrapper decodes the string and uses .NET reflection to invoke the execution of the original executable.
 
